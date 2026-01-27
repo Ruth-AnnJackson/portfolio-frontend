@@ -1,4 +1,4 @@
-const API_URL = 'https://portfolio-backend-dg6v.onrender.com/';
+const API_URL = 'https://portfolio-backend-dg6v.onrender.com';
 const messagesContainer = document.getElementById('messages');
 
 async function loadMessages() {
