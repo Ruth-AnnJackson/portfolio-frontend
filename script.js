@@ -31,7 +31,7 @@ form.addEventListener('submit', async e => {
     const message = document.getElementById('message').value;
 
     try {
-        const res = await fetch('http://localhost:3000/contact', {
+        const res = await fetch('https://portfolio-backend-dg6v.onrender.com/contact', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name, email, message })
